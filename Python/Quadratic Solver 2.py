@@ -12,7 +12,7 @@ b=int(b)
 c=int(c)
 
 def solve(x,y,z):
-    discriminant = ((b^2) - (4*a*c))
+    discriminant = ((b**2) - (4*a*c))
     if discriminant >= 0:
         root1 = ((-b + math.sqrt(b**2 - 4*a*c))/(2*a))
         root2 = ((-b - math.sqrt(b**2 - 4*a*c))/(2*a))
