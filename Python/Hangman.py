@@ -11,13 +11,15 @@ print("\n" * 50)
 l = list(word)
 mx = len(l)
 
-def Tesla():
+def Fentress():
+    returnword = ""
     for letter in word:
-        for letter in guessed:
-            print(letter)
+        if letter in guessed:
+            returnword += letter
         else:
-            print('_')
-
+            returnword += "_"
+    print(returnword)
+        
 def Hangman():
     print("\n" * 50)
     if counter == 0:
@@ -84,13 +86,13 @@ while run == True:
     if guess in l:
         Hangman()
         print('That is correct, my dude!')
-        Tesla()
+        Fentress()
         
     else:
         counter = counter + 1
         Hangman()
         print('No, not that one! Dad?')
-        Tesla()
+        Fentress()
         
     if counter > 5:
         print('you dead, boi. up to the pearly gates ya go. Bye bye now. Ba-bye!')
