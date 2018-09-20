@@ -1,7 +1,10 @@
 #Hangman
 #James O'Brien and Jack Antes
 
+run = True
+
 counter = 0
+global counter2
 
 guessed = []
 
@@ -17,8 +20,11 @@ def Fentress():
         if letter in guessed:
             returnword += letter
         else:
-            returnword += "_"
+                returnword += " _ "
     print(returnword)
+    if returnword == word:
+        print('That is the word, my dude! good job!')
+        counter2 = counter2 + 1
         
 def Hangman():
     print("\n" * 50)
@@ -67,8 +73,7 @@ def Hangman():
 
 Hangman()
 
-
-run = True
+print('There are ' + str(mx) + ' letters.')  
 
 while run == True:
     
@@ -77,13 +82,11 @@ while run == True:
         Hangman()
         print('you dead boi. water is nasty.')
         break
-    
-    print('There are ' + str(mx) + ' letters')
-    
+  
     guess = input("Player 2, guess a letter: ")
     guessed.append(guess)
     
-    if guess in l:
+    if guess in word:
         Hangman()
         print('That is correct, my dude!')
         Fentress()
@@ -97,4 +100,6 @@ while run == True:
     if counter > 5:
         print('you dead, boi. up to the pearly gates ya go. Bye bye now. Ba-bye!')
         run = False
-    
+
+    if counter2 == 1:
+        run = False
