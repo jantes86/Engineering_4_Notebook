@@ -51,22 +51,22 @@ Flask is cool! This assignment gave us the code too, but it was still neat to be
 We had a couple typos in the first half of the assignment where it gave us the code, which tripped us up but was solved fairly quickly. The other issue we ran into was with the switches on the site. How they worked and if we were going to use a toggle, buttons, or whatever else. We ended up using radio buttons and a submit button.
 
 ## GPIO Assignment - I2C
-### [Code](https://github.com/jantes86/Engineering_4_Notebook/blob/master/Python/GPIOPinsI2C)
+### [Code](https://github.com/jantes86/Engineering_4_Notebook/blob/master/Python/GPIOPinsI2C.py)
 ### Lessons Learned
 A lot of this assignment was getting the libraries set up, these I2C devices are super cool and it was great to learn about them. Once everything worked, we just had to go through the example code and find out what did what in order to mash them together.
 
 ## Headless
-### [Code](https://github.com/jantes86/Engineering_4_Notebook/blob/master/Python/Headless)
+### [Code](https://github.com/jantes86/Engineering_4_Notebook/blob/master/Python/Headless.py)
 ### Lessons Learned
 We didn't do this assignment as well as we could have, personally I'd like to come back and do a better job of it. It was cool to have the code run automatically without a monitor or mouse or keyboard, but the code was super simple and less visually interesting than it could have been.
 
 ## Pi Camera 
-### [Code](https://github.com/jantes86/Engineering_4_Notebook/blob/master/Python/Camera)
+### [Code](https://github.com/jantes86/Engineering_4_Notebook/blob/master/Python/Camera.py)
 ### Lessons Learned
 We had some trouble getting the preview of the camera to disappear, we ended up using CTRL + C but that often didn't work, meaning we had to reboot the Pi every time it got stuck. The rest of the assignment wasn't too bad, and now we know how to use the camera. The effects were a lot of fun.
 
 ## Hack Your Stuff
-### [Code](https://github.com/jantes86/Engineering_4_Notebook/blob/master/Python/AlarmHacking)
+### [Code](https://github.com/jantes86/Engineering_4_Notebook/blob/master/Python/AlarmHacking.py)
 ### Lessons Learned
 The sound the alarm makes is the worst thing in the world. We first used a different type of buzzer, which didn't work because it required an oscillating current, but once we found the correct one the only difficulty was finding the value of the photoresistor which we could read and use in the code. 
 
