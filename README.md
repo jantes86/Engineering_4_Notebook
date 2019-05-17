@@ -1,4 +1,10 @@
 # Engineering 4 Notebook
+##What I've Learned
+1) 0.125 inches (the thickness of acrylic) is 3.125mm
+2) Support material costs a lot of money and your parts should be designed/oriented to minimize its use
+3) Having a plan and not following it is better than not having a plan at all; uit's important to organize your ideas and find the order of operations of fabrication that will streamline your workflow.
+4) Things always take longer than you think they will.
+5) Take pride in your work, even if it's not perfect.
 ## Dice Roller
 ### [Code](https://github.com/jantes86/Engineering_4_Notebook/blob/master/Python/Atomic%20Dice%20Roller.py)
 ### Lessons Learned
