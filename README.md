@@ -1,5 +1,5 @@
 # Engineering 4 Notebook
-##What I've Learned
+## What I've Learned
 1) 0.125 inches (the thickness of acrylic) is 3.125mm
 2) Support material costs a lot of money and your parts should be designed/oriented to minimize its use
 3) Having a plan and not following it is better than not having a plan at all; uit's important to organize your ideas and find the order of operations of fabrication that will streamline your workflow.
